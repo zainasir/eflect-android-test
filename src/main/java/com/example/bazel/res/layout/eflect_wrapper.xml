@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:padding="16dp"
+              android:orientation="vertical"
+              android:gravity="center_vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16dp"
+            android:textColor="@color/bazel_green"
+            android:text="@string/thinking_face"/>
+
+    <Button
+            android:id="@+id/eflectStartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/bazel_green"
+            android:textColor="@color/color_on_bazel_green"
+            android:layout_marginTop="16dp"
+            android:text="Start Eflect"/>
+
+    <Button
+            android:id="@+id/eflectStopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/bazel_green"
+            android:textColor="@color/color_on_bazel_green"
+            android:layout_marginTop="16dp"
+            android:text="Stop Eflect"/>
+</LinearLayout>

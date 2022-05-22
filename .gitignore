@@ -1,0 +1,10 @@
+/.idea
+/bazel-bin
+/bazel-out
+/bazel-testlogs
+/bazel-tutorial
+*.trace
+*.csv
+*.pb
+*.zip
+traceconv
