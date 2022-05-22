@@ -18,7 +18,7 @@ import android.content.pm.PackageManager;
 
 
 public class MainActivity extends FragmentActivity {
-  private final String YOUTUBE_API = "AIzaSyB7hEaX6OrwwAPWJwX91jHDJFsSkxhshrE";
+  private final String YOUTUBE_API = "";
   private final String YOUTUBE_VIDEO_ID = "7bOptq-NPJQ";
 
   private ActivityResultLauncher<String> requestPermissionLauncher =
