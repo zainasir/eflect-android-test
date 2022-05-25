@@ -15,8 +15,6 @@ import androidx.core.content.ContextCompat;
 import android.Manifest;
 import android.content.pm.PackageManager;
 
-
-
 public class MainActivity extends FragmentActivity {
   private final String YOUTUBE_API = "";
   private final String YOUTUBE_VIDEO_ID = "7bOptq-NPJQ";
@@ -36,17 +34,6 @@ public class MainActivity extends FragmentActivity {
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
-
-    /*
-    Button clickMeButton = findViewById(R.id.clickMeButton);
-    TextView helloBazelTextView = findViewById(R.id.helloBazelTextView);
-
-    Greeter greeter = new Greeter();
-
-    // Bazel supports Java 8 language features like lambdas!
-    clickMeButton.setOnClickListener(v -> helloBazelTextView.setText(greeter.sayHello()));
-
-     */
 
     /*
     Get necessary permissions

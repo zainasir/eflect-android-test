@@ -1,4 +1,5 @@
 /.idea
+/bazel-eflect-android-test
 /bazel-bin
 /bazel-out
 /bazel-testlogs
